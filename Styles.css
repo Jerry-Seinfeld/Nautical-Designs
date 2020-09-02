@@ -445,7 +445,7 @@ nav ul li a {
 }
 
 
-#recent-reviews {
+#about {
     background: url('map.png') bottom left no-repeat; 
     background-size: 200px; 
     font-family: 'Patua One', cursive;
@@ -458,18 +458,18 @@ nav ul li a {
     
 }
 
-/* #recent-reviews h1 {
+/* #about h1 {
     text-align: center;
     margin-bottom: 1.65em;
     margin-top: -190px;
 } */
 
-#recent-reviews .box {
+#about .box {
    
     text-align: center;
 }
 
-#recent-reviews .box .rating-badge {
+#about .box .rating-badge {
     border-radius: 28px;
     padding: 13px;
     font-size: 1.1em;
@@ -482,31 +482,31 @@ nav ul li a {
     left: 30px;
 }
 
-#recent-reviews .box .rating-badge.purple {
+#about .box .rating-badge.purple {
     background-color: #694EAE;
     cursor: pointer;
 }
 
-#recent-reviews .box .rating-badge.green {
+#about .box .rating-badge.green {
     background-color: #4EAE60;
     cursor: pointer;
 }
 
-#recent-reviews .box .rating-badge.violet {
+#about .box .rating-badge.violet {
     background-color: #FF20AE;
     cursor: pointer;
 }
 
-#recent-reviews .box .recent-reviews-image {
+#about .box .about-image {
     margin-bottom: 0.75em;
     overflow: hidden;
 }
 
-#recent-reviews .box .recent-reviews-image img {
+#about .box .about-image img {
     width: 100%;
 }
 
-#recent-reviews h4 {
+#about h4 {
     color: rgb(0, 0, 0);
     text-shadow:
 		-1px -1px 0 rgb(255, 255, 255),
@@ -515,7 +515,7 @@ nav ul li a {
 		-1px -1px 0 rgb(255, 255, 255);
 }
 
-#recent-reviews .box p {
+#about .box p {
     color: rgb(0, 0, 0);
     text-shadow:
 		-1px -1px 0 rgb(255, 255, 255),
@@ -609,15 +609,15 @@ footer ul li a {
         width: 100%;
     }
     
-    #recent-reviews {
+    #about {
         background: none;
     }
 
-    #recent-reviews .flex {
+    #about .flex {
         flex-wrap: wrap;
     }
 
-    #recent-reviews .box {
+    #about .box {
         flex-basis: 48%;
         margin-bottom: 45px;
     }
@@ -705,11 +705,11 @@ footer ul li a {
     }
 
 
-    #recent-reviews .box {
+    #about .box {
         flex-basis: 100%;
     }
 
-    #recent-reviews .box .recent-reviews-image {
+    #about .box .about-image {
         height: 400px;
     }
 
