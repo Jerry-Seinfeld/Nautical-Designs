@@ -207,12 +207,7 @@ nav ul li a {
     border: none;
     cursor: pointer;
 }
-/* end: styles */
 
-/* start: latest news styles */
-#latest-news {
-    margin-bottom: 75px;
-}
 
 #latest-news .flex {
     justify-content: flex-start;
@@ -220,37 +215,13 @@ nav ul li a {
     padding: 0;
 }
 
-#latest-news .flex h5 {
-    flex-basis: 25%;
-    background-color: rgb(141, 15, 57);
-    padding: 25px;
-    margin: 0;
-    text-align: right;
-    color: rgb(0, 0, 0);
-    font-size: 1.2em;
-}
-
 #latest-news-container {
-    background-color: #131313;
+    background-color: #302e36;
+    padding: 20px 0;
     position: relative;
-    flex-basis: 75%;
-    padding: 25px;
+    flex-basis: 100%;
+    padding: 40px;
 }
-
-#latest-news-container .btn {
-    margin-right: 20px;
-    color: rgb(3, 2, 2);
-    background-color:rgb(141, 15, 57);
-    border: 1px solid #E92159;
-    padding: 5px; 
-    cursor: pointer;
-}
-
-#latest-news-container .latest-news-text {
-    color: rgb(141, 15, 57);
-}
-
-
 
 #game-types-boxes {
     margin-bottom: 75px;
@@ -365,12 +336,16 @@ nav ul li a {
 /* end: game types styles */
 
 /* start: recent games styles */
+
+
+
+
 #recent-games {
-    background: url('https://wallpapermemory.com/uploads/787/minimalist-wallpaper-hd-1920x1080-486346.jpg') top center no-repeat;
-    background-color: #eef2f6;
-    border-top: 1px solid #d6dee7;
-    border-bottom: 1px solid #d6dee7;
-    padding: 70px 0 120px;
+    font-family: 'Patua One', cursive;
+    color:#302e36;
+    background: url('kraken.png') bottom no-repeat; 
+    background-size: 200px;
+    background-position: 99%; 
 }
 
 #recent-games h1 {
@@ -385,7 +360,6 @@ nav ul li a {
 #recent-games .box {
     position: relative;
     flex-basis: 31%;
-    background-color: #fff;
 }
 
 #recent-games .box .badge {
@@ -393,6 +367,7 @@ nav ul li a {
     top: 20px;
     left: 20px;
     z-index: 2;
+    
 }
 
 #recent-games .box img {
@@ -401,22 +376,68 @@ nav ul li a {
 
 #recent-games .box .box-lower-section {
     padding: 20px;
+    
 }
 
-#recent-games .box .box-lower-section p {
+#dont {
+    font-family: 'Patua One', cursive;
+    color:#302e36;
+    background: url('bird.png') no-repeat; 
+    background-size: 200px;
+    background-position: 1%; 
+    
+}
+
+#dont h1 {
+    text-align: center;
+    text-shadow:
+		-1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 251, 251),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
+}
+
+#dont .box {
+    position: relative;
+    flex-basis: 31%;
+}
+
+#dont .box .badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    
+}
+
+#dont .box img {
+    width: 100%;
+}
+
+#dont .box .box-lower-section {
+    padding: 20px;
+    
+}
+
+
+
+/* #recent-games .box .box-lower-section p {
     color: rgb(0, 0, 0);
 }
 
 #recent-games .box .box-lower-section a {
     color: #999;
     font-size: 0.8em;
-}
+} */
 
 
 
 #grid {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
-    padding: 125px 0 105px;
+    background-color: #302e36;
+    padding: 20px 0;
+    position: relative;
+    flex-basis: 100%;
+    padding: 40px;
 }
 
 #grid .flex {
@@ -425,19 +446,26 @@ nav ul li a {
 
 
 #recent-reviews {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_reviews_bg.png') top right no-repeat;
-    background-size: cover;
-    padding: 75px 0 50px;
-}
-
-#recent-reviews h1 {
+    background: url('map.png') bottom left no-repeat; 
+    background-size: 200px; 
+    font-family: 'Patua One', cursive;
+    color: #302e36;
     text-align: center;
     margin-bottom: 1.65em;
+    padding: 10px;
+ background-position: 99%;  
+    
+    
 }
 
+/* #recent-reviews h1 {
+    text-align: center;
+    margin-bottom: 1.65em;
+    margin-top: -190px;
+} */
+
 #recent-reviews .box {
-    flex-basis: 23%;
-    position: relative;
+   
     text-align: center;
 }
 
@@ -498,13 +526,10 @@ nav ul li a {
 
 
 
-#grey-box {
-    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
-    padding: 75px 0;
-}
+
 
 footer {
-    background-color: #252525;
+    background-color: #302e36;
     padding: 25px 0 20px;
 }
 

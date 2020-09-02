@@ -1,0 +1,23 @@
+
+h1{
+    font-family: 'Patua One', cursive;
+    color: #302e36;
+    text-align: center;
+    position: relative; left:0px; top:320px;
+}
+
+h2{
+    font-family: 'Patua One', cursive;
+    color: #302e36;
+    text-align: center;
+   position: relative; left:0px; top:325px;
+}
+
+.return{
+    position: relative; left:940px; top:335px;
+    
+}
+
+.logo{
+    position: relative; left: 920px; top:100px; 
+}
