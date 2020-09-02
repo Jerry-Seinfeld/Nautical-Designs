@@ -340,7 +340,7 @@ nav ul li a {
 
 
 
-#recent-games {
+#howitworks {
     font-family: 'Patua One', cursive;
     color:#302e36;
     background: url('kraken.png') bottom no-repeat; 
@@ -348,7 +348,7 @@ nav ul li a {
     background-position: 99%; 
 }
 
-#recent-games h1 {
+#howitworks h1 {
     text-align: center;
     text-shadow:
 		-1px -1px 0 rgb(255, 255, 255),
@@ -357,12 +357,12 @@ nav ul li a {
 		1px 1px 0 rgb(255, 255, 255);
 }
 
-#recent-games .box {
+#howitworks .box {
     position: relative;
     flex-basis: 31%;
 }
 
-#recent-games .box .badge {
+#howitworks .box .badge {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -370,11 +370,11 @@ nav ul li a {
     
 }
 
-#recent-games .box img {
+#howitworks .box img {
     width: 100%;
 }
 
-#recent-games .box .box-lower-section {
+#howitworks .box .box-lower-section {
     padding: 20px;
     
 }
@@ -421,11 +421,11 @@ nav ul li a {
 
 
 
-/* #recent-games .box .box-lower-section p {
+/* #howitworks .box .box-lower-section p {
     color: rgb(0, 0, 0);
 }
 
-#recent-games .box .box-lower-section a {
+#howitworks .box .box-lower-section a {
     color: #999;
     font-size: 0.8em;
 } */
