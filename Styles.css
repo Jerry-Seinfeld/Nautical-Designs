@@ -110,6 +110,11 @@ header {
     font-size: 150%;
     
 }
+
+.bottom{
+    position: relative; right: 15px;
+}
+
 #nav-menu-container{
 position:relative; top:10px; 
 }
@@ -335,7 +340,7 @@ nav ul li a {
 }
 /* end: game types styles */
 
-/* start: recent games styles */
+/* start: abouttyles */
 
 
 
