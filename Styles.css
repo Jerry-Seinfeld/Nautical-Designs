@@ -40,6 +40,18 @@ p, label, strong {
     font-weight: 300;
 }
 
+.contact{
+    position: relative; right: 350px; top:20px;
+    font-family: 'Patua One', cursive;
+    font-size: 30%;
+    
+}
+
+.logos{
+    position: relative; right: 35px; top:20px; 
+}
+
+
 .info{
     font-size: 40%;
     font-family: 'Red Rose', cursive;
