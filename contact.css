@@ -6,7 +6,7 @@ h1{
     position: relative; left:0px; top:320px;
 }
 
-h2{
+p{
     font-family: 'Patua One', cursive;
     color: #302e36;
     text-align: center;
@@ -14,7 +14,12 @@ h2{
 }
 
 .return{
-    position: relative; left:940px; top:335px;
+    position: relative; left:910px; top:335px;
+    
+}
+
+.forward{
+    position: relative; left:930px; top:335px;
     
 }
 
