@@ -1,12 +1,11 @@
-# StaTTrackrevised
+# Web Nauticals
 
-"StaTTrack provides the user with relevent information in the fields of: Videogame reviews and articles to keep users up to date with the latest and greatest."
+Looking for a designer to bring your website to life? 
 
-This website was simply designed to convey some of my capabilities. 
+Web Nauticals is a great choice if you're looking for affordable and effective design.
 
-<b>Some portions of this project contain old files of the website that do not reflect StaTTrack.</b>
 
-[Website](https://jerry-seinfeld.github.io/StaTTrackrevised/)
+[Website](http://webnauticals.com/)
 
 ![Image](Picture.png)
 
